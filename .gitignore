@@ -1,0 +1,17 @@
+# Archivos y carpetas de Unity que no deben subirse
+[Llaves]/[Metadatos]/[Cache]/
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
