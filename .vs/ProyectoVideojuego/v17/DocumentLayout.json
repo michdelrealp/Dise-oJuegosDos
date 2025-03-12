@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\ProyectoVideojuego\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|c:\\users\\admin\\proyectovideojuego\\assets\\scripts\\camerascript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerascript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|c:\\users\\admin\\proyectovideojuego\\assets\\scripts\\jonhmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jonhmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,29 +22,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "CameraScript.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\ProyectoVideojuego\\Assets\\Scripts\\CameraScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraScript.cs",
+              "ToolTip": "C:\\Users\\Admin\\ProyectoVideojuego\\Assets\\Scripts\\CameraScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T05:33:13.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BulletScript.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\ProyectoVideojuego\\Assets\\Scripts\\BulletScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BulletScript.cs",
               "ToolTip": "C:\\Users\\Admin\\ProyectoVideojuego\\Assets\\Scripts\\BulletScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\BulletScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T02:39:08.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "JonhMovement.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\ProyectoVideojuego\\Assets\\Scripts\\JonhMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\JonhMovement.cs",
               "ToolTip": "C:\\Users\\Admin\\ProyectoVideojuego\\Assets\\Scripts\\JonhMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\JonhMovement.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowDMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T05:35:31.194Z",
               "EditorCaption": ""

@@ -10,7 +10,7 @@ public class JonhMovement : MonoBehaviour
 
     [Header("Configuraciones de Disparo")]
     public GameObject BulletPrefab;
-    public Transform FirePoint; // Nuevo objeto en Unity que indica dónde dispara
+    public Transform FirePoint;
 
     private Rigidbody2D Rigidbody2D;
     private Animator Animator;
@@ -33,7 +33,7 @@ public class JonhMovement : MonoBehaviour
 
         Animator.SetBool("running", Horizontal != 0.0f);
 
-        // Detección de suelo con BoxCollider en lugar de Raycast
+        // Detectar si está en el suelo
         Grounded = Physics2D.OverlapCircle(transform.position + Vector3.down * 0.2f, 0.15f, LayerMask.GetMask("Ground"));
 
         if (Input.GetKeyDown(KeyCode.W) && Grounded)
@@ -57,12 +57,22 @@ public class JonhMovement : MonoBehaviour
 
     private void Shoot()
     {
-        Vector2 direction = (transform.localScale.x == 1.0f) ? Vector2.right : Vector2.left;
+        if (BulletPrefab != null && FirePoint != null)
+        {
+            Vector2 direction = (transform.localScale.x == 1.0f) ? Vector2.right : Vector2.left;
 
-        // Instanciar la bala en el punto de disparo (FirePoint)
-        GameObject bullet = Instantiate(BulletPrefab, FirePoint.position, Quaternion.identity);
-        bullet.GetComponent<BulletScript>().SetDirection(direction);
+            // Instanciar la bala
+            GameObject bullet = Instantiate(BulletPrefab, FirePoint.position, Quaternion.identity);
+
+            // Pasar el Collider del personaje para ignorar la colisión
+            bullet.GetComponent<BulletScript>().SetDirection(direction, GetComponent<Collider2D>());
+        }
+        else
+        {
+            Debug.LogError("BulletPrefab o FirePoint no asignados en el Inspector.");
+        }
     }
+
 
     private void FixedUpdate()
     {

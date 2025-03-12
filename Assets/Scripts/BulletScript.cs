@@ -3,30 +3,33 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
     public float Speed = 5f;
-    public float Lifetime = 3f; // Tiempo antes de que la bala se destruya
+    public float Lifetime = 3f;
 
     private Rigidbody2D Rigidbody2D;
     private Vector2 Direction;
 
-    void Awake() // Se usa Awake para inicializar antes de Start()
+    void Awake()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    public void SetDirection(Vector2 direction)
+    public void SetDirection(Vector2 direction, Collider2D playerCollider)
     {
-        Direction = direction;
-        Rigidbody2D.linearVelocity = Direction * Speed;
-        Destroy(gameObject, Lifetime); // Destruir la bala después de cierto tiempo
+        Direction = direction.normalized;
+        Rigidbody2D.linearVelocity = Direction * Speed; // Aplicar velocidad
+
+        // Ignorar colisiones con el jugador
+        Physics2D.IgnoreCollision(GetComponent<Collider2D>(), playerCollider);
+
+        Destroy(gameObject, Lifetime); // Destruir la bala tras X segundos
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Player")) // Evita que destruya al jugador
+        if (!collision.CompareTag("Player")) // Evitar que la bala destruya al jugador
         {
-            Destroy(gameObject); // Destruir la bala al chocar con algo
+            Destroy(gameObject);
         }
     }
 }
-
 
