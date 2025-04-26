@@ -26,10 +26,18 @@ public class BulletScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Player")) // Evitar que la bala destruya al jugador
+        JonhMovement john = collision.GetComponent<JonhMovement>();
+        GruntScript grunt = collision.GetComponent<GruntScript>();
+        if (john != null) 
         {
-            Destroy(gameObject);
+            john.Hit();
         }
+
+        if (grunt != null)
+        {
+            grunt.Hit();
+        }
+        Destroy(gameObject);
     }
 }
 
