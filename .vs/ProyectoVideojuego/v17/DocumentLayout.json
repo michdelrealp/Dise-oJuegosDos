@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\ProyectoVideojuego\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\Admin\\ProyectoVideojuego\\assets\\scripts\\camerascript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerascript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\Admin\\ProyectoVideojuego\\assets\\scripts\\jonhmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jonhmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|c:\\users\\admin\\proyectovideojuego\\assets\\scripts\\gruntscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\Admin\\ProyectoVideojuego\\assets\\scripts\\gruntscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gruntscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,11 +15,11 @@
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\Admin\\ProyectoVideojuego\\assets\\scripts\\jonhmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jonhmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|c:\\users\\admin\\proyectovideojuego\\assets\\scripts\\camerascript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerascript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|c:\\users\\admin\\proyectovideojuego\\assets\\scripts\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\Admin\\ProyectoVideojuego\\assets\\scripts\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GruntScript.cs",
               "ToolTip": "C:\\Users\\Admin\\ProyectoVideojuego\\Assets\\Scripts\\GruntScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\GruntScript.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T05:22:45.535Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Pause.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T22:41:13.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T22:41:13.568Z"
             },
             {
               "$type": "Document",
@@ -75,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CameraScript.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\ProyectoVideojuego\\Assets\\Scripts\\CameraScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraScript.cs",
@@ -94,20 +93,20 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\BulletScript.cs",
               "ToolTip": "C:\\Users\\Admin\\ProyectoVideojuego\\Assets\\Scripts\\BulletScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\BulletScript.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBQAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T02:39:08.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "JonhMovement.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\ProyectoVideojuego\\Assets\\Scripts\\JonhMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\JonhMovement.cs",
               "ToolTip": "C:\\Users\\Admin\\ProyectoVideojuego\\Assets\\Scripts\\JonhMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\JonhMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T05:35:31.194Z",
               "EditorCaption": ""

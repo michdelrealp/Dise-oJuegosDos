@@ -18,7 +18,7 @@ public class BulletScript : MonoBehaviour
         Direction = direction.normalized;
         Rigidbody2D.linearVelocity = Direction * Speed; // Aplicar velocidad
 
-        // Ignorar colisiones con el jugador
+        // Ignorar colisiones con el jugador // agrego esto para poder actualizar el git correctamente/
         Physics2D.IgnoreCollision(GetComponent<Collider2D>(), playerCollider);
 
         Destroy(gameObject, Lifetime); // Destruir la bala tras X segundos

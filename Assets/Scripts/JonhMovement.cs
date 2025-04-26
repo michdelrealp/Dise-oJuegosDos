@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//comentario para actualizar
 public class JonhMovement : MonoBehaviour
 {
     [Header("Configuraciones de Movimiento")]

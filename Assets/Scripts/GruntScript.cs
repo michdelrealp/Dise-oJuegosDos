@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//comentario para actualizar
 public class GruntScript : MonoBehaviour
 {
 
