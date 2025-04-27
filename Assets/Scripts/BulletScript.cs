@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
+    public AudioClip Sound;
     public float Speed = 5f;
     public float Lifetime = 3f;
 
@@ -11,6 +12,8 @@ public class BulletScript : MonoBehaviour
     void Awake()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
+        Camera.main.GetComponent<AudioSource>().PlayOneShot(Sound);
+
     }
 
     public void SetDirection(Vector2 direction, Collider2D playerCollider)

@@ -125,6 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc1e8df7a6aea74499b83ef4107bfe80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sound: {fileID: 8300000, guid: ee73be10967296d4a987b2864e5b3553, type: 3}
   Speed: 2
   Lifetime: 1
 --- !u!50 &6773708566222928301
