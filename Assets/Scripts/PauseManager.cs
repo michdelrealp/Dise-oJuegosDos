@@ -1,47 +1,53 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Para cargar escenas si quieres un menú
+using UnityEngine.SceneManagement;
 
 public class PauseManager : MonoBehaviour
 {
-    public GameObject pauseMenuUI; // El menú de pausa (opcional, por si quieres mostrar algo)
+    public GameObject PauseMenuCanvas; // Aquí arrastras tu PauseMenuCanvas en el Inspector
     private bool isPaused = false;
+
+    void Start()
+    {
+        PauseMenuCanvas.SetActive(false); // Oculta el menú al iniciar el juego
+    }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) // Si presiona 'Esc'
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused)
             {
-                Resume();
+                ResumeGame();
             }
             else
             {
-                Pause();
+                PauseGame();
             }
         }
     }
 
-    public void Resume()
+    public void PauseGame()
     {
-        if (pauseMenuUI != null)
-            pauseMenuUI.SetActive(false);
-
-        Time.timeScale = 1f; // Reanuda el juego
-        isPaused = false;
+        PauseMenuCanvas.SetActive(true);
+        Time.timeScale = 0f; // Congela el juego
+        isPaused = true;
     }
 
-    void Pause()
+    public void ResumeGame()
     {
-        if (pauseMenuUI != null)
-            pauseMenuUI.SetActive(true);
-
-        Time.timeScale = 0f; // Detiene el tiempo (pausa)
-        isPaused = true;
+        PauseMenuCanvas.SetActive(false);
+        Time.timeScale = 1f; // Descongela el juego
+        isPaused = false;
     }
 
     public void QuitGame()
     {
-        Debug.Log("Saliendo del juego...");
-        Application.Quit(); // Cierra la aplicación cuando está en ejecutable
+        Debug.Log("Saliendo...");
+        Application.Quit();
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
     }
 }
+
